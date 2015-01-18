@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrays_commom">
+        <item >首页</item>
+        <item >资讯</item>
+        <item >服务</item>
+        <item >社团</item>
+        <item >动态</item>
+    </string-array>
+    
+    <string-array name="arrays_setting">
+        <item >意见反馈</item>
+        <item >设置</item>
+        <item >关于</item>    
+    </string-array>
+</resources>

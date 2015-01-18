@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/common_image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="10dip"
+        android:paddingLeft="30dip"
+        android:paddingTop="10dip"
+        android:src="@drawable/school_img_first" />
+
+    <TextView
+        android:id="@+id/commom_text_item"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+         android:layout_marginTop="20dip"
+        android:layout_toRightOf="@+id/common_image_icon"
+        android:text="首页"
+        android:textColor="@color/whilte"
+        android:textSize="18sp" />
+    
+</RelativeLayout>
