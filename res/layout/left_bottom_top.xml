@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     >
+
+     <ImageView
+         android:id="@+id/img_icon_user_top"
+         android:layout_width="70dip"
+         android:layout_height="70dip"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="38dp"
+         android:layout_marginTop="30dip"
+         android:src="@drawable/user" />
+
+     <ImageButton
+         android:id="@+id/img_btn_toggle_top"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/user_name_top"
+         android:layout_marginRight="16dp"
+         android:background="@drawable/img_btn_arrow_back" />
+
+     <TextView
+         android:id="@+id/user_name_top"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/img_icon_user_top"
+         android:layout_marginLeft="16dp"
+         android:layout_marginTop="18dp"
+         android:layout_toRightOf="@+id/img_icon_user_top"
+         android:text="阿波"
+         android:textColor="@color/whilte"
+         android:textSize="20sp" />
+
+</RelativeLayout>
